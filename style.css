@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -15,11 +20,14 @@ li {
 .navbar {
   display: flex;
   justify-content: space-between;
-  position: absolute;
   width: 100%;
-  height: 50px;
-  padding: 14px 24px;
+  height: 48px;
   align-items: center;
+  padding: 0;
+}
+
+nav {
+  margin-right: 24px;
 }
 
 .logo {
@@ -34,11 +42,16 @@ li {
   align-items: center;
   text-align: center;
   color: #6070ff;
+  margin-left: 24px;
 }
 
 .introduction {
-  background-image: url(/images/header-bg.jpg);
-  padding-top: 100px;
+  background-image: url(./images/header-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-size: auto;
 }
 
 a {
@@ -58,6 +71,7 @@ a:hover {
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin: 50px 24px 12px 24px;
 }
 
 .second-intro {
@@ -66,9 +80,7 @@ a:hover {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  margin: 0 24px 12px 24px;
 }
 
 .social {
@@ -80,12 +92,12 @@ a:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin: 0 0 12px 24px;
 }
 
 ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 40px;
-  margin-left: -20px;
+  gap: 30px;
 }
