@@ -140,7 +140,6 @@ Example commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Isabella Otoo**
 
@@ -161,7 +160,7 @@ Example commands:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[I will add projects section ]**
+- [ ] **[I will add a Projects section ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -198,15 +197,6 @@ I would like to thank Microverse for the opportunity to create this project and 
 
 <!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
