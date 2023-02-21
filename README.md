@@ -127,71 +127,19 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
-```sh
-  cd my-folder
+  cd your-folder
   git clone git@github.com:myaccount/my-project.git
-```
---->
 
-<!-- ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
----> -->
-
-<!-- ### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-``` -->
---->
-
-<!-- ### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
- -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Isabella Otoo**
 
@@ -212,7 +160,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[I will add other sections]**
+- [ ] **[I will add a Projects section ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -249,15 +197,6 @@ I would like to thank Microverse for the opportunity to create this project and 
 
 <!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,8 +204,8 @@ I would like to thank Microverse for the opportunity to create this project and 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE)licensed.
+This project is [MIT](./LICENSE.md)licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
