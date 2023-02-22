@@ -95,9 +95,136 @@ a:hover {
   margin: 0 0 12px 24px;
 }
 
-ul {
+ul.social-icons {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 30px;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px 114px 24px;
+  gap: 88px;
+  background: #f7f7f9;
+  width: 375px;
+  height: 2788px;
+}
+
+.card-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  gap: 12px;
+  height: 552px;
+  padding: 16px;
+  top: 114px;
+  left: 24px;
+}
+
+.portfolio-card1 {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+}
+
+.project-desc {
+  width: 295px;
+  height: 288px;
+  top: 248px;
+  left: 16px;
+  gap: 12px;
+}
+
+.project-title {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  width: 295px;
+  height: 36px;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.frame2 {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 32px;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.frame2 > img {
+  margin: 0 12px;
+}
+
+.frame2 > h4 {
+  color: #7a869a;
+}
+
+.text {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tag {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  width: 203px;
+  height: 24px;
+}
+
+ul.tag {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  gap: 30px;
+  margin-left: -20px;
+}
+
+button#skill {
+  color: #6070ff;
+  border: 0 solid #6070ff;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.normal-button {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
 }
