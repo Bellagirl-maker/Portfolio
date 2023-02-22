@@ -68,7 +68,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Header section was buiilt with HTML and CSS
+Project section was buiilt with HTML and CSS
 
 <!-- <details>
   <summary>Client</summary>
@@ -97,7 +97,7 @@ Header section was buiilt with HTML and CSS
 
 
 
-- **[Displays the header section of a mobile view]**
+- **[Displays the Project or Work section of a mobile view]**
 - 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -160,7 +160,7 @@ Example commands:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[I will add a Projects section ]**
+- [ ] **[I will add About Me Section ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
