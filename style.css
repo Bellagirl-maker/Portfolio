@@ -103,8 +103,9 @@ ul.social-icons {
 }
 
 .projects-section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: auto auto auto auto;
   padding: 114px 24px 114px 24px;
   gap: 88px;
   background: #f7f7f9;
@@ -227,4 +228,95 @@ button#skill {
   border-radius: 8px;
   padding: 12px;
   background: #fff;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100vw;
+}
+
+.resumebtn {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  margin-left: 24px;
+}
+
+.lang-frame-skills {
+  margin: 48px 0 113px 0;
+}
+
+.lang-list-skill {
+  display: flex;
+  justify-content: flex-start;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 0 36px 12px 36px;
+  padding: 9px 0 9px 12px;
+}
+
+.lang-list {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.lang-list > img {
+  height: 6px;
+  align-self: center;
+  margin-right: 64px;
+}
+
+.lang-list > p {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-left: 36px;
+}
+
+.frame-skill > p {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.frame-skill > img {
+  margin-right: 40px;
+}
+
+.lang-list-skill > p {
+  margin-left: 16px;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.frame-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfe1e6;
+  margin: 0 24px;
 }
