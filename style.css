@@ -401,3 +401,131 @@ ul.lang-frame-skills {
   border-bottom: 1px solid #dfe1e6;
   margin: 0 24px;
 }
+
+.contact-me {
+  background-image: url(./images/contact\ form\ shapes.png);
+  background-color: #6070ff;
+  border-top-left-radius: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+}
+
+.contact-intro1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-top: 103px;
+  margin-left: 48px;
+  margin-bottom: 12px;
+}
+
+.contact-intro2 {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  margin-left: 24px;
+}
+
+#name {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  width: 327px;
+  height: 48px;
+  margin: 24px 24px;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 16px;
+}
+
+#email {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  width: 327px;
+  height: 48px;
+  margin: 24px 24px;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 16px;
+}
+
+input::placeholder {
+  color: #172b4d;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
+}
+
+#msg {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  width: 327px;
+  height: 170px;
+  margin: 24px 24px;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding: 16px;
+}
+
+#btn {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  align-self: self-start;
+  margin-left: 24px;
+  margin-bottom: 45px;
+}
+
+#btn:enabled {
+  background: #fff;
+  color: #7f8cff;
+}
+
+#btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+#btn:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+#btn:disabled {
+  background: #fff;
+  color: #5e6c84;
+}
