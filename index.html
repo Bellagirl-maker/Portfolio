@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+la<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,15 +13,20 @@
 <body>
     <header class="navbar">
         <a href="#" class="logo">My Logo</a>
-        <nav><img class="union" src="./images/Union.png"  alt=""></nav>
-    </header>
+            <nav><img class="union" src="./images/Union.png"  alt=""></nav>
+        <ul class="menu-links">
+            <li><a href="">Portfolio</a> </li>
+            <li><a href="">About</a> </li>
+            <li><a href="">Contact</a> </li>
+        </ul>
+</header>
     <main>
-    <section class="introduction"> 
-        <p class="first-intro">I’m Isabella
+    <section class="introduction">
+        <div class="intro-container">
+        <p class="first-intro">I’m Isabella<br>
             Glad to see you!</p>
         <p class="second-intro">I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         <p class="social">LET'S CONNECT</p>
-
         <div class="social-icons">
             <ul class="social-icons">
                 <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
@@ -30,9 +35,9 @@
                 <li><a href=""><img src="./images/mail.svg" alt=""></a></li>
                 <li><a href=""><img src="./images/Vector.svg" alt=""></a></li>
             </ul>
+        </div> 
         </div>
     </section>
-    <div class="bottom-sections">
     <section class="projects-section">
         <div class="card-works">
             <img class="portfolio-card1" src="./images/snapshot1.png" alt="">
@@ -124,7 +129,7 @@
             <li><button id="skill">html</button></li>
             <li><button id="skill">css</button></li>
             <li><button id="skill">javaScript</button></li>
-            <img class="portfolio-card1" src="./images/snapshot1.png" alt=""></ul>
+            </ul>
         <button class="normal-button">See Project</button>
     </div>    
         <img class="portfolio-desktop1" src="./images/Snapshoot Portfolio desktop 4.png" alt="">
@@ -134,22 +139,23 @@
     </section>
     <section class="about-intro">
         <div class="about">
-        <p class="about-first-intro">About <br>Myself</p>
-        <p class="about-second-intro">I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <p class="about-social">LET'S CONNECT</p>
-        <div class="social-icons">
-            <ul class="about-social-icons">
+            <div class="intro">
+            <p class="about-first-intro">About <br>Myself</p>
+            <p class="about-second-intro">I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <p class="about-social">LET'S CONNECT</p>
+              <div class="social-icons">
+                <ul class="about-social-icons">
                 <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
                 <li><a href=""><img src="./images/github.png" alt=""></a></li>
                 <li><a href=""><img src="./images/Linkedin icon.svg" alt=""></a></li>
                 <li><a href=""><img src="./images/mail.svg" alt=""></a></li>
                 <li><a href=""><img src="./images/Vector.svg" alt=""></a></li>
-            </ul>
-        </div>
-        <button class="resumebtn">Get my resume </button>
-    <!-- </div> -->
+                </ul>
+              </div>
+           <button class="resumebtn">Get my resume </button>
+          </div>
         <div class="skill-list">
-        <ul class="lang-frame-skills">
+            <ul class="lang-frame-skills">
             <li class="lang">
                 <div class="lang-list">
                     <p>Languages</p>
@@ -158,13 +164,13 @@
             
                 <div class="lang-list-skill">
                     <div><img src="./images/javaScript.png" alt="">
-                        <p>JavaScript</p>
+                        <p class="js">JavaScript</p>
                     </div>
                         <div><img src="./images/html.png" alt="">
-                           <p> HTML</p>
+                           <p class="html"> HTML</p>
                         </div>
                         <div><img src="./images/css.png" alt="">
-                            <p>CSS</p>
+                            <p css="css">CSS</p>
                         </div>
                 </div>
             </li>
@@ -176,6 +182,8 @@
                         <img src="./images/framework.png" alt="">
             </li>
             </ul>
+        </div>
+
         </div>
     </section>
 <section class="contact-me">
