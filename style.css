@@ -1,9 +1,11 @@
+
 body {
   margin: 0;
   padding: 0;
 }
 
-* {
+* { 
+  border: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -299,7 +301,7 @@ button#skill:disabled {
   width: 375px;
   border-top-right-radius: 70px;
   background: #fff;
-  padding: 120px 24px;
+  /* padding: 120px 24px; */
 }
 
 .about-first-intro {
@@ -609,7 +611,7 @@ textarea::placeholder {
   }
 
   .logo {
-    width: 76px;
+    width: 80px;
     height: 20px;
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
@@ -620,7 +622,7 @@ textarea::placeholder {
     align-items: center;
     text-align: center;
     color: #6070ff;
-    margin-left: 10.7vw;
+    margin-left: 10.7vw; 
   }
 
   .union {
@@ -639,6 +641,7 @@ textarea::placeholder {
     line-height: 20px;
     text-align: center;
     margin-right: 10.7vw;
+    padding: 0;
   }
 
   .introduction {
@@ -650,10 +653,10 @@ textarea::placeholder {
     flex-direction: column;
     width: 100%;
     border-bottom-left-radius: 10%;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
-    height: 916px;
-    padding: 287px 260px;
+    height: 63.6vw; 
+    padding: 268px 260px;
   }
 
   a {
@@ -665,8 +668,8 @@ textarea::placeholder {
   }
 
   .first-intro {
-    width: 920px;
-    height: 122px;
+    width: 69vw;
+    height: 8.5vw; 
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
     font-weight: 700;
@@ -675,12 +678,13 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     color: #172b4d;
+    margin: 0;
   }
 
   .second-intro {
     font-family: 'Poppins', sans-serif !important;
-    width: 920px;
-    height: 98px;
+    width: 69vw;
+    height: 6.8vw;  
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -689,8 +693,6 @@ textarea::placeholder {
 
   .social {
     font-family: 'Poppins', sans-serif !important;
-    width: 117px;
-    height: 24px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -701,16 +703,19 @@ textarea::placeholder {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 19.99px;
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
   }
 
   .projects-section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto; 
     background: #f7f7f9;
     width: 100%;
+    
   }
 
   .card-works {
@@ -720,10 +725,12 @@ textarea::placeholder {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    gap: 12px;
-    width: 1156px;
-    height: 496px;
   }
+
+  .card-works > * {
+    flex: 1
+  }
+
 
   .portfolio-desktop1 {
     display: inline-block;
@@ -733,12 +740,6 @@ textarea::placeholder {
     display: none;
   }
 
-  .project-desc {
-    width: 544px;
-    height: 445px;
-    left: 590px;
-    padding: 24px;
-  }
 
   .project-title {
     font-family: 'Poppins', sans-serif !important;
@@ -876,7 +877,6 @@ textarea::placeholder {
 
   .about-intro {
     width: 100%;
-    padding: 166px 24px;
   }
 
   .about {
@@ -970,15 +970,14 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     width: 684px;
-    margin: 142px 166px;
+    margin: 142px;
   }
 
   .lang {
     width: 684px;
   }
 
-  ul.lang-frame-skills {
-    padding: 0;
+  ul.lang-frame-skills { 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1019,13 +1018,11 @@ textarea::placeholder {
     font-size: 20px;
     line-height: 24px;
     color: #000;
-    margin-left: 12px;
-    margin-right: 12px;
   }
 
   .frame-skill > img {
     align-self: center;
-    margin-right: 85px;
+    margin-right: 85px; 
   }
 
   .lang-list-skill > div > p {
@@ -1044,11 +1041,11 @@ textarea::placeholder {
     align-content: flex-start;
     justify-content: center;
     width: 8.5vw;
-    height: 8.3vw;
+    height: 8.3vw; 
   }
 
   .lang-list-skill > div > img {
-    width: 3.3vw;
+     width: 3.3vw
   }
 
   .frame-skill {
@@ -1056,7 +1053,7 @@ textarea::placeholder {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dfe1e6;
-    width: 684px;
+    width: 684px; 
   }
 
   .contact-me {
@@ -1068,13 +1065,16 @@ textarea::placeholder {
     flex-wrap: wrap;
     align-content: center;
     width: 100%;
+    background-size: 100%;
+    align-items: center;
+    background-position: center;
   }
 
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 447px;
+    width: 31%;
   }
 
   .contact-intro1 {
@@ -1088,6 +1088,7 @@ textarea::placeholder {
     color: #fff;
     margin-bottom: 12px;
     justify-content: center;
+    width: 39%;
   }
 
   .contact-intro2 {
@@ -1098,15 +1099,13 @@ textarea::placeholder {
     line-height: 28px;
     color: #fff;
     text-align: center;
+    width: 39%;
   }
 
   #name {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
     background: #fff;
-    width: 327px;
-    height: 48px;
-    margin: 24px 24px;
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
     font-weight: 400;
@@ -1119,9 +1118,6 @@ textarea::placeholder {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
     background: #fff;
-    width: 327px;
-    height: 48px;
-    margin: 24px 24px;
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
     font-weight: 400;
@@ -1142,9 +1138,6 @@ textarea::placeholder {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
     background: #fff;
-    width: 327px;
-    height: 170px;
-    margin: 24px 24px;
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
     font-weight: 400;
