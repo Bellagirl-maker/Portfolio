@@ -5,7 +5,7 @@ body {
 }
 
 * { 
-  border: 1px solid red;
+  /* border: 1px solid red; */
   box-sizing: border-box;
 }
 
@@ -225,7 +225,7 @@ ul.tag {
   list-style: none;
 }
 
-button#skill {
+button.skill {
   color: #6070ff;
   cursor: pointer;
   background: #ebebff;
@@ -239,22 +239,22 @@ button#skill {
   padding: 4px 12px;
 }
 
-button#skill:enabled {
+button.skill:enabled {
   background: #ebebff;
   color: #7f8cff;
 }
 
-button#skill:hover {
+button.skill:hover {
   background: #6070ff;
   color: #fff;
 }
 
-button#skill:active {
+button.skill:active {
   background: #2230d2;
   color: #fff;
 }
 
-button#skill:disabled {
+button.skill:disabled {
   background: #fff;
   color: #5e6c84;
 }
@@ -644,6 +644,11 @@ textarea::placeholder {
     padding: 0;
   }
 
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .introduction {
     background-image: url(./images/Header\ bg@2x.png);
     background-color: #fff;
@@ -651,12 +656,12 @@ textarea::placeholder {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     border-bottom-left-radius: 10%;
     background-size: 100%;
     background-position: center;
-    height: 63.6vw; 
-    padding: 268px 260px;
+ 
+  
   }
 
   a {
@@ -668,8 +673,7 @@ textarea::placeholder {
   }
 
   .first-intro {
-    width: 69vw;
-    height: 8.5vw; 
+    width: 100%;
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
     font-weight: 700;
@@ -683,8 +687,7 @@ textarea::placeholder {
 
   .second-intro {
     font-family: 'Poppins', sans-serif !important;
-    width: 69vw;
-    height: 6.8vw;  
+    width: 100%;  
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -707,6 +710,7 @@ textarea::placeholder {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 20px;
+    justify-self: flex-start;
   }
 
   .projects-section {
@@ -715,6 +719,8 @@ textarea::placeholder {
     grid-template-rows: auto auto auto auto; 
     background: #f7f7f9;
     width: 100%;
+    gap:0;
+    padding-bottom: 0;
     
   }
 
@@ -725,16 +731,34 @@ textarea::placeholder {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
+    width: 80%;
+    gap: 0.5rem;
+    height: 70%;
+    margin: 0 auto;
   }
 
   .card-works > * {
     flex: 1
   }
 
+  .project-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    
+    
+  }
+
 
   .portfolio-desktop1 {
-    display: inline-block;
-  }
+    display: inline-block; 
+    max-width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
 
   .portfolio-card1 {
     display: none;
@@ -748,10 +772,9 @@ textarea::placeholder {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
-    width: 496px;
-    height: 46px;
-    margin-top: 2px;
-    margin-bottom: 12px;
+    margin:0 0 16px 0;
+    width: 100%;
+    
   }
 
   .frame2 {
@@ -803,9 +826,11 @@ textarea::placeholder {
     border-radius: 8px;
     gap: 8px;
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
-  button#skill {
+  button.skill {
     color: #6070ff;
     cursor: pointer;
     background: #ebebff;
@@ -816,25 +841,25 @@ textarea::placeholder {
     line-height: 16px;
     border: 0;
     height: 24px;
-    padding: 4px 12px;
+    padding-left: 0;
   }
 
-  button#skill:enabled {
+  button.skill:enabled {
     background: #ebebff;
     color: #7f8cff;
   }
 
-  button#skill:hover {
+  button.skill:hover {
     background: #6070ff;
     color: #fff;
   }
 
-  button#skill:active {
+  button.skill:active {
     background: #2230d2;
     color: #fff;
   }
 
-  button#skill:disabled {
+  button.skill:disabled {
     background: #fff;
     color: #5e6c84;
   }
@@ -876,17 +901,21 @@ textarea::placeholder {
   }
 
   .about-intro {
-    width: 100%;
+    width: 80%;
   }
 
   .about {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    gap: 0.5rem;
   }
 
+  .about > * {
+    flex: 1;
+  } 
+
   .intro {
-    width: 447px;
+    
   }
 
   .about-first-intro {
@@ -898,7 +927,7 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     color: #172b4d;
-    margin: 142px 0 12px 142px;
+    margin-top: 0;
   }
 
   .about-second-intro {
@@ -907,7 +936,6 @@ textarea::placeholder {
     font-weight: 400;
     font-size: 16px;
     color: #344563;
-    margin: 0 0 0 142px;
   }
 
   .about-social {
@@ -919,7 +947,6 @@ textarea::placeholder {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 142px;
   }
 
   ul.about-social-icons {
@@ -927,8 +954,8 @@ textarea::placeholder {
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    margin-left: 110px;
     list-style: none;
+    padding-left: 20px;
   }
 
   .resumebtn {
@@ -943,7 +970,7 @@ textarea::placeholder {
     border-radius: 8px;
     padding: 12px;
     background: #fff;
-    margin: 0 0 134px 142px;
+    
   }
 
   .resumebtn:enabled {
@@ -968,13 +995,12 @@ textarea::placeholder {
 
   .skill-list {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 684px;
-    margin: 142px;
   }
 
   .lang {
-    width: 684px;
+    
   }
 
   ul.lang-frame-skills { 
@@ -991,10 +1017,12 @@ textarea::placeholder {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    width: 100%;
   }
 
   .lang-list-skill {
     display: flex;
+    width: 100%;
   }
 
   .lang-list > img {
@@ -1021,8 +1049,7 @@ textarea::placeholder {
   }
 
   .frame-skill > img {
-    align-self: center;
-    margin-right: 85px; 
+   display: block;
   }
 
   .lang-list-skill > div > p {
@@ -1053,7 +1080,8 @@ textarea::placeholder {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dfe1e6;
-    width: 684px; 
+    align-content: center;
+    width: 100%;
   }
 
   .contact-me {
@@ -1074,7 +1102,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 31%;
+    width: 50%;
   }
 
   .contact-intro1 {
@@ -1088,7 +1116,7 @@ textarea::placeholder {
     color: #fff;
     margin-bottom: 12px;
     justify-content: center;
-    width: 39%;
+    width: 50%;
   }
 
   .contact-intro2 {
@@ -1099,7 +1127,7 @@ textarea::placeholder {
     line-height: 28px;
     color: #fff;
     text-align: center;
-    width: 39%;
+    width: 50%;
   }
 
   #name {
@@ -1112,6 +1140,8 @@ textarea::placeholder {
     font-size: 17px;
     line-height: 20px;
     padding: 16px;
+    width: 90%;
+    margin: 0 0 12px 0;
   }
 
   #email {
@@ -1124,6 +1154,8 @@ textarea::placeholder {
     font-size: 17px;
     line-height: 20px;
     padding: 16px;
+    width: 90%;
+    margin: 0 0 12px 0;
   }
 
   input::placeholder {
@@ -1145,6 +1177,8 @@ textarea::placeholder {
     line-height: 24px;
     color: #b3bac5;
     padding: 16px;
+    width: 90%;
+    margin: 0 0 12px 0;
   }
 
   #btn {
