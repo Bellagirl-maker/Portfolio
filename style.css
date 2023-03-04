@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-* { 
+* {
   /* border: 1px solid red; */
   box-sizing: border-box;
 }
@@ -301,6 +301,7 @@ button.skill:disabled {
   width: 375px;
   border-top-right-radius: 70px;
   background: #fff;
+
   /* padding: 120px 24px; */
 }
 
@@ -622,16 +623,16 @@ textarea::placeholder {
     align-items: center;
     text-align: center;
     color: #6070ff;
-    margin-left: 10.7vw; 
+    margin-left: 10.7vw;
     transition: width 2s linear 1s;
   }
-  
-.logo:hover{
-  transition: ease-in-out .3s;
-  color:rgb(20, 14, 14);
-  font-weight: 700;
-  text-decoration: none;
-}
+
+  .logo:hover {
+    transition: ease-in-out 0.3s;
+    color: rgb(20, 14, 14);
+    font-weight: 700;
+    text-decoration: none;
+  }
 
   .union {
     display: none;
@@ -652,11 +653,12 @@ textarea::placeholder {
     padding: 0;
   }
 
-  main{
+  main {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .introduction {
     background-image: url(./images/Header\ bg@2x.png);
     background-color: #fff;
@@ -668,8 +670,6 @@ textarea::placeholder {
     border-bottom-left-radius: 10%;
     background-size: 100%;
     background-position: center;
- 
-  
   }
 
   a {
@@ -695,7 +695,7 @@ textarea::placeholder {
 
   .second-intro {
     font-family: 'Poppins', sans-serif !important;
-    width: 100%;  
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -724,12 +724,11 @@ textarea::placeholder {
   .projects-section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto; 
+    grid-template-rows: auto auto auto auto;
     background: #f7f7f9;
     width: 100%;
-    gap:0;
+    gap: 0;
     padding-bottom: 0;
-    
   }
 
   .card-works {
@@ -746,7 +745,7 @@ textarea::placeholder {
   }
 
   .card-works > * {
-    flex: 1
+    flex: 1;
   }
 
   .project-desc {
@@ -756,22 +755,18 @@ textarea::placeholder {
     height: 100%;
     width: 100%;
     border: 1px solid red;
-    
-    
   }
 
-
   .portfolio-desktop1 {
-    display: inline-block; 
+    display: inline-block;
     max-width: 100%;
     height: auto;
     border: 1px solid red;
-}
+  }
 
   .portfolio-card1 {
     display: none;
   }
-
 
   .project-title {
     font-family: 'Poppins', sans-serif !important;
@@ -780,9 +775,8 @@ textarea::placeholder {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
-    margin:0 0 16px 0;
+    margin: 0 0 16px 0;
     width: 100%;
-    
   }
 
   .frame2 {
@@ -920,10 +914,6 @@ textarea::placeholder {
 
   .about > * {
     flex: 1;
-  } 
-
-  .intro {
-    
   }
 
   .about-first-intro {
@@ -978,7 +968,6 @@ textarea::placeholder {
     border-radius: 8px;
     padding: 12px;
     background: #fff;
-    
   }
 
   .resumebtn:enabled {
@@ -1007,11 +996,7 @@ textarea::placeholder {
     align-items: center;
   }
 
-  .lang {
-    
-  }
-
-  ul.lang-frame-skills { 
+  ul.lang-frame-skills {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1057,7 +1042,7 @@ textarea::placeholder {
   }
 
   .frame-skill > img {
-   display: block;
+    display: block;
   }
 
   .lang-list-skill > div > p {
@@ -1076,11 +1061,11 @@ textarea::placeholder {
     align-content: flex-start;
     justify-content: center;
     width: 8.5vw;
-    height: 8.3vw; 
+    height: 8.3vw;
   }
 
   .lang-list-skill > div > img {
-     width: 3.3vw
+    width: 3.3vw;
   }
 
   .frame-skill {
