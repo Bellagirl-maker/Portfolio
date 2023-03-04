@@ -623,7 +623,15 @@ textarea::placeholder {
     text-align: center;
     color: #6070ff;
     margin-left: 10.7vw; 
+    transition: width 2s linear 1s;
   }
+  
+.logo:hover{
+  transition: ease-in-out .3s;
+  color:rgb(20, 14, 14);
+  font-weight: 700;
+  text-decoration: none;
+}
 
   .union {
     display: none;
