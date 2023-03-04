@@ -1,11 +1,9 @@
-
-
+*,
+*::before,
+*::after,
 body {
   margin: 0;
   padding: 0;
-}
-
-* {
   box-sizing: border-box;
 }
 
@@ -49,14 +47,6 @@ main {
   background-color: #f7f7f9;
 }
 
-.union {
-  display: inline-block;
-}
-
-.menu-links {
-  display: none;
-}
-
 .introduction {
   background-image: url(./images/header-bg.png);
   background-repeat: no-repeat;
@@ -66,7 +56,7 @@ main {
   background-size: 100%;
   background-color: #fff;
   border-bottom-left-radius: 90px;
-  padding: 120px 24px 150px; 
+  padding: 120px 24px 150px;
 }
 
 a {
@@ -294,49 +284,6 @@ button.skill:disabled {
   align-items: center;
   color: #172b4d;
   margin: 114px 0 12px 24px;
-  width: 327px;
-}
-
-.about-second-intro {
-  font-family: 'Poppins', sans-serif !important;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #344563;
-  margin-left: 24px;
-}
-
-.about-social {
-  font-family: 'Poppins', sans-serif !important;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 0 20px 24px;
-}
-
-ul.about-social-icons {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  margin: 0 0 20px 0;
-  list-style: none;
-}
-
-.about-first-intro {
-  font-family: 'Poppins', sans-serif !important;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-  margin: 114px 0 12px 24px;
 }
 
 .about-second-intro {
@@ -380,7 +327,6 @@ ul.about-social-icons {
   background: #fff;
   margin-left: 24px;
   margin-right: 164px;
-  width: 162px;
 }
 
 .resumebtn:enabled {
@@ -631,7 +577,7 @@ MEDIA QUERIES
   .union {
     display: none;
   }
-  
+
   .introduction {
     background-image: url(images/Header\ bg@2x.png);
     background-size: 100% 90%;
@@ -648,8 +594,9 @@ MEDIA QUERIES
   div.social-icons {
     margin-left: 20px;
   }
-
+  
   .menu-links {
+    display: block;
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -657,9 +604,6 @@ MEDIA QUERIES
 
   .menu-links li a {
     color: #344563;
-    font-family: 'Poppins', sans-serif !important;
-    font-style: normal;
-    line-height: 20px;
     font-weight: 500;
     font-size: 15px;
   }
@@ -667,6 +611,7 @@ MEDIA QUERIES
   .card-works {
     flex-direction: row;
     align-items: flex-start;
+    
     width: 90%;
     margin: 0 auto;
   }
