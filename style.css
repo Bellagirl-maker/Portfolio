@@ -594,9 +594,8 @@ MEDIA QUERIES
   div.social-icons {
     margin-left: 20px;
   }
-  
+
   .menu-links {
-    display: block;
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -611,7 +610,6 @@ MEDIA QUERIES
   .card-works {
     flex-direction: row;
     align-items: flex-start;
-    
     width: 90%;
     margin: 0 auto;
   }
