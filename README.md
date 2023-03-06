@@ -59,16 +59,16 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: setup and mobile first] <a name="about-project"></a>
+# 📖 [Portfolio: Application Deploy] <a name="about-project"></a>
 
 
-**[Portfolio: setup and mobile first]** is a mobile version of the header section
+**[Portfolio: Application Deploy]** is a mobile version of the header section
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Project section was buiilt with HTML and CSS
+This Project was buiilt with HTML and CSS
 
 <!-- <details>
   <summary>Client</summary>
@@ -97,7 +97,7 @@ Project section was buiilt with HTML and CSS
 
 
 
-- **[Displays the Project or Work section of a mobile view]**
+- **[My Portfolio]**
 - 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,7 +108,7 @@ Project section was buiilt with HTML and CSS
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://bellagirl-maker.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -157,11 +157,11 @@ Example commands:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+<!-- ## 🔭 Future Features <a name="future-features"></a>
 
 
 - [ ] **[I will add About Me Section ]**
-
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
