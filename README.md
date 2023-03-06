@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Portfolio: Application Deploy] <a name="about-project"></a>
 
 
-**[Portfolio: Application Deploy]** is a mobile version of the header section
+**[Portfolio: Application Deploy]** is a deployment of the entire Portfolio
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -103,14 +103,11 @@ This Project was buiilt with HTML and CSS
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://bellagirl-maker.github.io/Portfolio/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- GETTING STARTED -->
 
