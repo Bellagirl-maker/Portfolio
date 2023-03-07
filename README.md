@@ -70,6 +70,7 @@ Clone this repository to your desired folder:
 Example commands:
 
   cd your-folder
+  
   git clone https://github.com/Bellagirl-maker/Portfolio.git
 
 
