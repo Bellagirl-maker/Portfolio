@@ -49,10 +49,6 @@ This Project was buiilt with HTML and CSS
 ### Key Features <a name="key-features"></a>
 The website was tested on the following accessibility requirements: Title, Image text alternatives, Text headings, Color contrast, Resize, Interaction, Moving content, Multimedia, The basic structure of the page
 
-
-- **[My Portfolio]**
-- 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
