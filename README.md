@@ -62,13 +62,6 @@ The website was tested on the following accessibility requirements: Title, Image
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-To get a local copy up and running, follow these steps.
-
-In order to run this project you need: Text editor and internet browser and github account
-
-
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -82,6 +75,37 @@ Example commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Prerequisites
+
+To get a local copy up and running, follow these steps.
+
+In order to run this project you need: Text editor and internet browser and github account
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Install
+
+clone this project to your local environment and open in the browser
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Usage
+
+Use this project in the browsers of mobile phones and desktops
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+npm run test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment
+
+You can deploy this project on GitHub Pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
