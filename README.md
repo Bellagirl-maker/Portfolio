@@ -1,35 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>Portfolio: setup and mobile first</b></h3>
+  <h3><b>Accessibility Testing of Portfolio Project</b></h3>
 
 </div>
 
@@ -59,10 +34,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Application Deploy] <a name="about-project"></a>
+# 📖 [Portfolio Project: Accessibility] <a name="about-project"></a>
 
 
-**[Portfolio: Application Deploy]** is a deployment of the entire Portfolio
+This project is about testing accessiblity of portfolio website
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,31 +45,9 @@ After you're finished please remove all the comments and instructions!
 
 This Project was buiilt with HTML and CSS
 
-<!-- <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
- -->
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
+The website was tested on the following accessibility requirements: Title, Image text alternatives, Text headings, Color contrast, Resize, Interaction, Moving content, Multimedia, The basic structure of the page
 
 
 - **[My Portfolio]**
@@ -116,7 +69,7 @@ This Project was buiilt with HTML and CSS
 
 To get a local copy up and running, follow these steps.
 
-In order to run this project you need:
+In order to run this project you need: Text editor and internet browser and github account
 
 
 
@@ -128,12 +81,11 @@ Clone this repository to your desired folder:
 Example commands:
 
   cd your-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Bellagirl-maker/Portfolio.git
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -144,21 +96,16 @@ Example commands:
 - Twitter: [@twitterhandle](https://twitter.com/isabella_otoo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/isabella-otoo-935901146/)
 
-<!-- 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
- -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-<!-- ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[I will add About Me Section ]**
- -->
+ ## 🔭 Future Features <a name="future-features"></a>
+
+
+- Add JS functionality
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +119,7 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -190,18 +137,22 @@ I would like to thank Microverse for the opportunity to create this project and 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+ ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[How can this project be imporoved]**
+
+  - [Dynamic pages could be added to this website using JavaScript]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md)licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 
 
