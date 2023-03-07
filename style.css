@@ -92,7 +92,7 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #7f8cff;
+  color: #303FC5;
   margin-top: 0.5rem;
 }
 
@@ -169,7 +169,7 @@ ul.social-icons {
 }
 
 .frame2 > h4 {
-  color: #7a869a;
+  color: #303FC5;
 }
 
 .text {
@@ -196,7 +196,7 @@ ul.social-icons {
 }
 
 button.skill {
-  color: #6070ff;
+  color: #3440B2;
   cursor: pointer;
   background: #ebebff;
   border-radius: 8px;
@@ -300,7 +300,7 @@ button.skill:disabled {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #7f8cff;
+  color: #303FC5;
   margin: 20px 0 20px 24px;
 }
 
@@ -508,7 +508,7 @@ input::placeholder {
 }
 
 textarea::placeholder {
-  color: #b3bac5;
+  color: #404BB5;
 }
 
 #msg {
@@ -523,7 +523,7 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #b3bac5;
+  color: #404BB5;
   padding: 16px;
 }
 
