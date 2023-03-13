@@ -41,7 +41,7 @@ This project is about testing accessiblity of portfolio website
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This Project was buiilt with HTML and CSS
+This Project was buiilt with HTML, CSS and JavaScript
 
 ### Key Features <a name="key-features"></a>
 
