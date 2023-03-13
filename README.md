@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Accessibility Testing of Portfolio Project</b></h3>
+  <h3><b>Portfolio:Mobile menu</b></h3>
 
 </div>
 
@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project: Accessibility] <a name="about-project"></a>
+# 📖 [Portfolio Project: Mobile Menu] <a name="about-project"></a>
 
 This project is about testing accessiblity of portfolio website
 
@@ -41,7 +41,7 @@ This project is about testing accessiblity of portfolio website
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This Project was buiilt with HTML, CSS and JavaScript
+This Project was built with HTML, CSS and JavaScript
 
 ### Key Features <a name="key-features"></a>
 
@@ -122,7 +122,7 @@ You can deploy this project on GitHub Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add JS functionality
+- Add more JS functionalities
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
