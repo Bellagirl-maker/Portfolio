@@ -634,6 +634,17 @@ MEDIA QUERIES
     font-family: 'Poppins', sans-serif !important;
   }
 
+  .menu-item {
+    padding-left: 20px;
+    margin-left: 20px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
   .card-works {
     flex-direction: row;
     align-items: flex-start;
