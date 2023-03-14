@@ -47,6 +47,58 @@ main {
   background-color: #f7f7f9;
 }
 
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(41, 58, 208, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: none;
+}
+
+.menu {
+  color: #6070ff;
+  font-size: 1.3rem;
+}
+
+.menu-list {
+  display: none;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  color: #fff;
+  font-size: 34px;
+  padding-top: 50px;
+  float: right;
+  margin-left: 85%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.menu-list-mobile > li > a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  padding-left: 12px;
+}
+
 .introduction {
   background-image: url(./images/header-bg.png);
   background-repeat: no-repeat;
@@ -57,14 +109,6 @@ main {
   background-color: #fff;
   border-bottom-left-radius: 90px;
   padding: 120px 24px 150px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration-line: underline;
 }
 
 .first-intro {
@@ -605,6 +649,7 @@ MEDIA QUERIES
     color: #344563;
     font-weight: 500;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif !important;
   }
 
   .card-works {
@@ -696,7 +741,6 @@ MEDIA QUERIES
   .contact-me {
     background-image: url(images/contact\ form\ background\ shapes\ desktop.png);
     background-size: 100% 80%;
-    background-position: top 20%;
     padding-bottom: 150px;
   }
 

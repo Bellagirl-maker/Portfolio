@@ -14,15 +14,28 @@
     />
   </head>
   <body>
-    <header class="navbar">
-      <a href="#" class="logo">My Logo</a>
-      <nav><img class="union" src="./images/Union.png" alt="menu icon" /></nav>
-      <ul class="menu-links">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </header>
+    
+    <header>
+     <nav class="navbar">
+      <a href="#" class="logo">Isabella Otoo</a>
+        <nav id = "menu-icon"><a href="#"><img class="union" src="./images/Union.png" alt="menu icon" /></a></nav>
+        <ul class="menu-links">
+          <li><a href="#projects-section">Portfolio</a></li>
+          <li><a href="#about-intro">About</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      <nav class="mobile-nav">
+       <a href=""><span class="close-button">&#10006;</span></a> 
+        <ul class="menu-list-mobile" >
+            <li ><a class="menu-item" href="#projects-section">Portfolio</a></li><br>
+            <li ><a class="menu-item" href="#about-intro">About</a></li><br>
+            <li ><a class="menu-item" href="#contact-me">Contact</a></li><br>
+        </ul>
+      </nav> 
+  </nav>
+  </header>
+
+            
     <main>
       <section class="introduction">
         <h1 class="first-intro">
@@ -62,7 +75,7 @@
           </ul>
         </div>
       </section>
-      <section class="projects-section">
+      <section class="projects-section" id ="projects-section">
         <div class="card-works">
           <img
             class="portfolio-card1"
@@ -208,7 +221,7 @@
           />
         </div>
       </section>
-      <section class="about-intro">
+      <section class="about-intro" id="about-intro">
         <div class="about">
           <div class="intro">
             <p class="about-first-intro">About <br />Myself</p>
@@ -288,7 +301,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-me">
+      <section class="contact-me" id = "contact-me">
         <p class="contact-intro1">Contact me</p>
         <p class="contact-intro2">
           If you have an application you are interested in developing, a feature
@@ -322,5 +335,7 @@
         </form>
       </section>
     </main>
+    <script src="index.js" type="text/javascript"></script>
+
   </body>
 </html>
