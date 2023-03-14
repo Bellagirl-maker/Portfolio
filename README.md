@@ -1,10 +1,9 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
   <br/>
 
-  <h3><b>Accessibility Testing of Portfolio Project</b></h3>
+  <h3><b>Portfolio:Mobile menu</b></h3>
 
 </div>
 
@@ -34,8 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project: Accessibility] <a name="about-project"></a>
-
+# 📖 [Portfolio Project: Mobile Menu] <a name="about-project"></a>
 
 This project is about testing accessiblity of portfolio website
 
@@ -43,20 +41,21 @@ This project is about testing accessiblity of portfolio website
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This Project was buiilt with HTML and CSS
-
+This Project was built with HTML, CSS and JavaScript
 
 ### Key Features <a name="key-features"></a>
+
 The website was tested on the following accessibility requirements: Title, Image text alternatives, Text headings, Color contrast, Resize, Interaction, Moving content, Multimedia, The basic structure of the page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
- ## 🚀 Live Demo <a name="live-demo"></a>
+
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://bellagirl-maker.github.io/Portfolio/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -66,13 +65,11 @@ The website was tested on the following accessibility requirements: Title, Image
 
 Clone this repository to your desired folder:
 
-
 Example commands:
 
-  cd your-folder
-  
-  git clone https://github.com/Bellagirl-maker/Portfolio.git
+cd your-folder
 
+git clone https://github.com/Bellagirl-maker/Portfolio.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,23 +107,22 @@ You can deploy this project on GitHub Pages
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Isabella Otoo**
 
 - GitHub: [@githubhandle](https://github.com/Bellagirl-maker)
 - Twitter: [@twitterhandle](https://twitter.com/isabella_otoo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/isabella-otoo-935901146/)
 
+👤 **Qusai Issa**
+
+- GitHub: [@qusai122](https://github.com/qusai122)
+- LinkedIn: [Qusai Issa](https://www.linkedin.com/in/qusai-issa-ab5a59156/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
 
-
- ## 🔭 Future Features <a name="future-features"></a>
-
-
-- Add JS functionality
-
+- Add more JS functionalities
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,10 +136,7 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project give me 5 stars ⭐️⭐️⭐️⭐️⭐️
 
@@ -153,28 +146,20 @@ If you like this project give me 5 stars ⭐️⭐️⭐️⭐️⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
 I would like to thank Microverse for the opportunity to create this project and all my team mates who supported me
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 - **[How can this project be imporoved]**
 
   - [Dynamic pages could be added to this website using JavaScript]
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
-
-
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
