@@ -602,7 +602,7 @@ textarea::placeholder {
   color: #5e6c84;
 }
 
-/* Creat style for popup window */
+/* Create style for popup window */
 
 .modal-section {
   position: fixed;
@@ -655,6 +655,7 @@ textarea::placeholder {
   line-height: 16px;
   color: #344563;
   margin-bottom: 1rem;
+  display: flex;
 }
 
 .position-card-descmodal-head > .title {
@@ -696,22 +697,17 @@ textarea::placeholder {
 }
 
 .card-modal-middle {
-  gap: 8px;
-  margin-top: 59px;
-}
-
-.card-modal-middle > * {
-  flex: 1;
+  display: block;
+  padding-top: 8px;
 }
 
 .card-info {
-  font-family: 'Poppins', sans-serif !important;
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
+  color: #344563;
+  font-style: normal;
   font-size: 15px;
   line-height: 24px;
-  color: #344563;
-  margin-right: 5%;
 }
 
 .card-modal-middle > .card-info {
@@ -720,6 +716,12 @@ textarea::placeholder {
   line-height: 30px;
   padding-top: 8px;
 }
+
+/* .card-modal-middle-group2{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+} */
 
 #techs {
   display: grid;
@@ -760,18 +762,20 @@ textarea::placeholder {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 14px;
   color: #396df2;
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
   background: #fff;
   margin-bottom: 1rem;
+  width: auto;
 }
 
 .card-modal-btn-grp {
-  display: block;
+  display: flex;
   gap: 12px;
+  width: 50px;
 }
 
 /*
@@ -838,6 +842,11 @@ MEDIA QUERIES
     display: block;
     width: 4rem;
     height: 100%;
+  }
+
+  .card-modal-middle {
+    display: flex;
+    padding-top: 8px;
   }
 
   .about-intro {
