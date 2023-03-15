@@ -689,6 +689,7 @@ textarea::placeholder {
 
 .card-modal-hr {
   color: #ebecf0;
+  margin: 0.5em;
 }
 
 .card-modal-img {
@@ -717,12 +718,6 @@ textarea::placeholder {
   padding-top: 8px;
 }
 
-/* .card-modal-middle-group2{
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-} */
-
 #techs {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -741,6 +736,7 @@ textarea::placeholder {
   border: 0;
   padding: 4px 12px;
   width: 90%;
+  margin-bottom: 0.5rem;
 }
 
 #btn-link {
@@ -842,6 +838,17 @@ MEDIA QUERIES
     display: block;
     width: 4rem;
     height: 100%;
+  }
+
+  .card-modal {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 4%;
+    overflow-x: hidden;
+    width: 70%;
+    align-self: center;
+    padding: 1.5rem;
   }
 
   .card-modal-middle {
