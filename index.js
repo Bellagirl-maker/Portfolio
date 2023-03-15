@@ -1,6 +1,9 @@
 function ReadElement(selector) {
   return document.querySelector(selector);
 }
+const emailer = ReadElement('#email');
+const validator = ReadElement('.validator');
+const submitbtn = ReadElement('#btn');
 const menu = ReadElement('#menu-icon');
 const nav = ReadElement('.mobile-nav');
 const closeNav = ReadElement('.close-button');
@@ -129,3 +132,25 @@ Addwindow(viewModal4, cardModal, 'nav-toggle', 4);
 RemoveWindow(cardModal, cardModal, 'nav-toggle');
 RemoveWindow(closeNav, nav, 'nav-toggle');
 RemoveWindow(nav, nav, 'nav-toggle');
+
+RemoveWindow(nav, nav, 'nav-toggle');
+
+function EmailValidation(e) {
+  const email = emailer.value;
+  let text;
+  if (email === email.toLowerCase() && email !== '') {
+    text = 'Email is inserted in lowercase as required';
+    validator.innerHTML = text;
+    validator.classList.add('validator-green');
+    submitbtn.style.marginTop = '20px';
+  } else {
+    text = 'Email is required and has to be in lowercase';
+    validator.innerHTML = text;
+    validator.classList.remove('validator-green');
+    validator.classList.add('validator-red');
+    submitbtn.style.marginTop = '20px';
+    e.preventDefault();
+  }
+}
+const e = this;
+submitbtn.addEventListener('click', () => EmailValidation(e));
