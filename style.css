@@ -69,11 +69,6 @@ main {
   display: none;
 }
 
-.nav-toggle {
-  display: flex;
-  flex-direction: column;
-}
-
 .close-button {
   color: #fff;
   font-size: 34px;
@@ -235,7 +230,6 @@ ul.social-icons {
   justify-content: flex-start;
   align-items: center;
   border-radius: 8px;
-  gap: 0.5rem;
   margin: 1rem 0;
 }
 
@@ -250,6 +244,7 @@ button.skill {
   line-height: 16px;
   border: 0;
   padding: 4px 12px;
+  width: 90%;
 }
 
 button.skill:enabled {
@@ -620,6 +615,7 @@ textarea::placeholder {
   backdrop-filter: blur(5px);
   display: none;
   overflow: auto;
+  align-items: center;
 }
 
 .nav-toggle {
@@ -633,6 +629,7 @@ textarea::placeholder {
   border-radius: 16px;
   padding: 24px;
   margin: 4%;
+  width: 70%;
 }
 
 .card-modal-head {
@@ -640,7 +637,32 @@ textarea::placeholder {
   justify-content: space-between;
 }
 
-.card-modal-head > .title {
+.card-title {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 2px;
+}
+
+.card-desc {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  margin-bottom: 1rem;
+}
+
+.position-card-descmodal-head > .title {
   margin-bottom: 0;
   margin-top: 0;
   font-size: 40px;
@@ -661,17 +683,40 @@ textarea::placeholder {
   line-height: 20px;
 }
 
+.role-text {
+  color: #7a869a;
+}
+
+.year-text {
+  color: #7a869a;
+}
+
 .card-modal-hr {
   color: #ebecf0;
 }
 
 .card-modal-img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
 .card-modal-middle {
   padding-top: 8px;
+  display: flex;
+}
+
+.card-modal-middle > * {
+  flex: 1;
+}
+
+.card-info {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-right: 5%;
 }
 
 .card-modal-middle > .card-info {
@@ -689,6 +734,16 @@ textarea::placeholder {
 
 #techs-item {
   margin-top: 10px;
+  color: #3440b2;
+  background: #ebebff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border: 0;
+  padding: 4px 12px;
+  width: 90%;
 }
 
 #btn-link {
@@ -703,10 +758,20 @@ textarea::placeholder {
 .card-modal-btn {
   margin-top: 10px;
   margin-left: 2%;
-  margin-bottom: 20px;
   display: inline-flex;
-  width: 45%;
   justify-content: center;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  margin-bottom: 1rem;
 }
 
 .card-modal-btn-grp {
@@ -825,7 +890,6 @@ MEDIA QUERIES
 
   .lang-list-skill > * {
     flex: 1;
-    gap: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

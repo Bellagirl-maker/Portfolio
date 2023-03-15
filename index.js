@@ -33,7 +33,7 @@ const cardDetails = [
     name: 'CANOPY',
     technology: 'Back End Dev',
     year: '2025',
-    imageUrl: "./images/snapshot1.png",
+    imageUrl: './images/Snapshootdesktop1.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     liveLink: 'https://www.linkedin.com/in/isabella-otoo-935901146/',
@@ -43,7 +43,7 @@ const cardDetails = [
     name: 'CANOPY',
     technology: 'Back End Dev',
     year: '2025',
-    imageUrl: "./images/snapshot1.png",
+    imageUrl: './images/Snapshootdesktop2.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. ry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     liveLink: 'https://www.linkedin.com/in/isabella-otoo-935901146/',
@@ -53,7 +53,7 @@ const cardDetails = [
     name: 'CANOPY',
     technology: 'Back End Dev',
     year: '2025',
-    imageUrl: "./images/snapshot1.png",
+    imageUrl: './images/Snapshootdesktop3.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     liveLink: 'https://www.linkedin.com/in/isabella-otoo-935901146/',
@@ -63,7 +63,7 @@ const cardDetails = [
     name: 'CANOPY',
     technology: 'Back End Dev',
     year: '2025',
-    imageUrl: "./images/snapshot1.png",
+    imageUrl: './images/Snapshootdesktop4.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     liveLink: 'https://www.linkedin.com/in/isabella-otoo-935901146/',
@@ -75,12 +75,12 @@ function renderModal(number) {
   const modalInstance = ` <div class=" card-modal">
       <div class="card-modal-head">
           <h1 class="card-title card-modal-head">${card.title}</h1>
-          <span class="close-modal">x</span>
+          <span class="close-modal">&#10006;</span>
       </div>
       <div class="position card-desc">
-          <h4 class="client-text">${card.name}</h4>
-          <H5 class="role-text">&#x25cf; ${card.technology}</H5>
-          <H5 class="year-text">&#x25cf; ${card.year}</H5>
+         <h4 class="client-text">${card.name}</h4>
+         <H5 class="role-text">&#x25cf; ${card.technology}</H5>
+         <H5 class="year-text">&#x25cf; ${card.year}</H5>
       </div>
       <img class="card-modal-img" src=${card.imageUrl} alt="The Snapshoot-Portfolio image">
       <div class="card-modal-middle">
@@ -91,12 +91,10 @@ function renderModal(number) {
           <div class="card-modal-middle-group2">
               <div class="techs" id="techs">
                   ${card.languages.map((lang) => `<div class="tag-item" id="techs-item">${lang}</div>`).join('')}
-                
-                  </div>
-                  <hr class="card-modal-hr">
+                </div>
                   <div class="card-modal-btn-grp">
-                  <a href=${card.liveLink} id="btn-link" <button type="button" class="view-more card-modal-btn">See live <img class="btn-icon" src="assits/card-icon1.png" alt="icon img"></button></a>
-                  <a href=${card.sourceCode} id="btn-link" <button type="button" class="view-more card-modal-btn">See Source <img class="btn-icon" src="assits/card-icon2.png" alt="icon img"></button></a>
+                  <a href=${card.liveLink} id="btn-link" <button type="button" class="view-more card-modal-btn">See live <img class="btn-icon" src="./images/live.png" alt="icon img"></button></a>
+                  <a href=${card.sourceCode} id="btn-link" <button type="button" class="view-more card-modal-btn">See Source <img class="btn-icon" src="./images/source.png" alt="icon img"></button></a>
                   </div>
                   </div> 
                   </div>
