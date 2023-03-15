@@ -615,7 +615,7 @@ textarea::placeholder {
   backdrop-filter: blur(5px);
   display: none;
   overflow: auto;
-  align-items: center;
+  overflow-x: hidden;
 }
 
 .nav-toggle {
@@ -629,7 +629,7 @@ textarea::placeholder {
   border-radius: 16px;
   padding: 24px;
   margin: 4%;
-  width: 70%;
+  overflow-x: hidden;
 }
 
 .card-modal-head {
@@ -654,11 +654,6 @@ textarea::placeholder {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  align-content: center;
   margin-bottom: 1rem;
 }
 
@@ -701,8 +696,8 @@ textarea::placeholder {
 }
 
 .card-modal-middle {
-  padding-top: 8px;
-  display: flex;
+  gap: 8px;
+  margin-top: 59px;
 }
 
 .card-modal-middle > * {
