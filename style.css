@@ -69,11 +69,6 @@ main {
   display: none;
 }
 
-.nav-toggle {
-  display: flex;
-  flex-direction: column;
-}
-
 .close-button {
   color: #fff;
   font-size: 34px;
@@ -235,7 +230,6 @@ ul.social-icons {
   justify-content: flex-start;
   align-items: center;
   border-radius: 8px;
-  gap: 0.5rem;
   margin: 1rem 0;
 }
 
@@ -250,6 +244,7 @@ button.skill {
   line-height: 16px;
   border: 0;
   padding: 4px 12px;
+  width: 90%;
 }
 
 button.skill:enabled {
@@ -607,6 +602,178 @@ textarea::placeholder {
   color: #5e6c84;
 }
 
+/* Create style for popup window */
+
+.modal-section {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(165, 185, 224, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  margin-bottom: 50px;
+  backdrop-filter: blur(5px);
+  display: none;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-modal {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 4%;
+  overflow-x: hidden;
+}
+
+.card-modal-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 2px;
+}
+
+.card-desc {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.position-card-descmodal-head > .title {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.close-modal {
+  font-size: 35px;
+  color: #67798e;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.card-modal-head-body {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.role-text {
+  color: #7a869a;
+}
+
+.year-text {
+  color: #7a869a;
+}
+
+.card-modal-hr {
+  color: #ebecf0;
+  margin: 0.5em;
+}
+
+.card-modal-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-modal-middle {
+  display: block;
+  padding-top: 8px;
+}
+
+.card-info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #344563;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.card-modal-middle > .card-info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 8px;
+}
+
+#techs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: left;
+}
+
+#techs-item {
+  margin-top: 10px;
+  color: #3440b2;
+  background: #ebebff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border: 0;
+  padding: 4px 12px;
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+
+#btn-link {
+  text-decoration: none;
+}
+
+.btn-icon {
+  margin-left: 7px;
+  margin-bottom: -8px;
+}
+
+.card-modal-btn {
+  margin-top: 10px;
+  margin-left: 2%;
+  display: inline-flex;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 14px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  margin-bottom: 1rem;
+  width: auto;
+}
+
+.card-modal-btn-grp {
+  display: flex;
+  gap: 12px;
+  width: 50px;
+}
+
 /*
 MEDIA QUERIES
 */
@@ -673,6 +840,22 @@ MEDIA QUERIES
     height: 100%;
   }
 
+  .card-modal {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 4%;
+    overflow-x: hidden;
+    width: 70%;
+    align-self: center;
+    padding: 1.5rem;
+  }
+
+  .card-modal-middle {
+    display: flex;
+    padding-top: 8px;
+  }
+
   .about-intro {
     border-top-right-radius: 90px;
     background-color: white;
@@ -716,7 +899,6 @@ MEDIA QUERIES
 
   .lang-list-skill > * {
     flex: 1;
-    gap: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
