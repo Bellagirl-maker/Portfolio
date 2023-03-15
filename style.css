@@ -774,6 +774,25 @@ textarea::placeholder {
   width: 50px;
 }
 
+.validator-red {
+  width: 100%;
+  background-color: #fff;
+  color: red;
+  padding: 2px;
+  border: 1px solid red;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.validator-green {
+  width: 100%;
+  background-color: #fff;
+  color: green;
+  padding: 2px;
+  border: 1px solid green;
+  border-radius: 5px;
+  text-align: center;
+}
 /*
 MEDIA QUERIES
 */
