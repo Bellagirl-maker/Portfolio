@@ -9,7 +9,7 @@ const viewModal1 = ReadElement('.view-card-1');
 const viewModal2 = ReadElement('.view-card-2');
 const viewModal3 = ReadElement('.view-card-3');
 const viewModal4 = ReadElement('.view-card-4');
-const CardModal = ReadElement('.modal-section');
+const cardModal = ReadElement('.modal-section');
 function Add() {
   nav.classList.add('nav-toggle');
   document.body.classList.add('stop-scrolling');
@@ -100,7 +100,7 @@ function renderModal(number) {
                   </div>
     </div>`;
 
-  CardModal.innerHTML = modalInstance;
+  cardModal.innerHTML = modalInstance;
 }
 function Addwindow(selected, modalPart, opener, number) {
   return selected.addEventListener('click', () => {
@@ -121,10 +121,10 @@ function RemoveWindow(selected, modalPart, remover) {
 }
 
 Addwindow(menu, nav, 'nav-toggle');
-Addwindow(viewModal1, CardModal, 'nav-toggle', 1);
-Addwindow(viewModal2, CardModal, 'nav-toggle', 2);
-Addwindow(viewModal3, CardModal, 'nav-toggle', 3);
-Addwindow(viewModal4, CardModal, 'nav-toggle', 4);
-RemoveWindow(CardModal, CardModal, 'nav-toggle');
+Addwindow(viewModal1, cardModal, 'nav-toggle', 1);
+Addwindow(viewModal2, cardModal, 'nav-toggle', 2);
+Addwindow(viewModal3, cardModal, 'nav-toggle', 3);
+Addwindow(viewModal4, cardModal, 'nav-toggle', 4);
+RemoveWindow(cardModal, cardModal, 'nav-toggle');
 RemoveWindow(closeNav, nav, 'nav-toggle');
 RemoveWindow(nav, nav, 'nav-toggle');
