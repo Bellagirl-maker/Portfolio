@@ -154,3 +154,25 @@ function EmailValidation(e) {
 }
 const e = this;
 submitbtn.addEventListener('click', () => EmailValidation(e));
+
+const data = JSON.parse(localStorage.getItem("FormData")){
+
+}
+const formName = document.getElementById('name');
+const formEmail = document.getElementById('email');
+const formMessage = document.getElementById('msg');
+formName.value = data.name;
+formEmail.value = data.email;
+formMessage.value = data.message;
+formName.addEventListener('keyup', function() {
+  data[name] = formName.value;
+  localStorage.setItem('formData', JSON.stringify(data));
+})
+formEmail.addEventListener('keyup', function() {
+  data[email] = formEmail.value;
+  lcoalStorage.setItem('formData', JSON.stringify(data));
+})
+formMessage.addEventListener('keyup', function() {
+  data[message] = formMessage.value;
+  localStorage.setItem('formData', JSON.stringify(data));
+})
