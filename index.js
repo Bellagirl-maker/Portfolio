@@ -155,7 +155,7 @@ function EmailValidation(e) {
 const e = this;
 submitbtn.addEventListener('click', () => EmailValidation(e));
 
-const data = JSON.parse(localStorage.getItem("FormData")){
+const data = JSON.parse(localStorage.getItem("FormData")) || {
 
 }
 const formName = document.getElementById('name');
