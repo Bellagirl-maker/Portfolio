@@ -155,10 +155,8 @@ function EmailValidation(e) {
 const e = this;
 submitbtn.addEventListener('click', () => EmailValidation(e));
 
-
 const username = ReadElement('#name');
 const message = ReadElement('#msg');
-
 
 let myMessage;
 let userName;
