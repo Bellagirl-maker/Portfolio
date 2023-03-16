@@ -13,6 +13,8 @@ const viewModal2 = ReadElement('.view-card-2');
 const viewModal3 = ReadElement('.view-card-3');
 const viewModal4 = ReadElement('.view-card-4');
 const cardModal = ReadElement('.modal-section');
+const username = ReadElement('#name');
+const message = ReadElement('#msg');
 function Add() {
   nav.classList.add('nav-toggle');
   document.body.classList.add('stop-scrolling');
@@ -154,3 +156,31 @@ function EmailValidation(e) {
 }
 const e = this;
 submitbtn.addEventListener('click', () => EmailValidation(e));
+
+let myMessage;
+let userName;
+let email;
+
+let userData = [];
+
+function UpdateInput(selected) {
+  function myFunction() {
+    email = emailer.value;
+    userName = username.value;
+    myMessage = message.value;
+    userData = [userName, email, myMessage];
+    localStorage.setItem('userData', userData);
+  }
+  selected.addEventListener('change', myFunction);
+}
+
+myMessage = UpdateInput(message);
+userName = UpdateInput(username);
+email = UpdateInput(emailer);
+
+const myFormData = localStorage.getItem('userData');
+const myFormDataArray = myFormData.split(',');
+
+if (myFormDataArray.length > 0) {
+  [username.value, emailer.value, message.value] = myFormDataArray;
+}
