@@ -13,6 +13,8 @@ const viewModal2 = ReadElement('.view-card-2');
 const viewModal3 = ReadElement('.view-card-3');
 const viewModal4 = ReadElement('.view-card-4');
 const cardModal = ReadElement('.modal-section');
+const username = ReadElement('#name');
+const message = ReadElement('#msg');
 function Add() {
   nav.classList.add('nav-toggle');
   document.body.classList.add('stop-scrolling');
@@ -154,9 +156,6 @@ function EmailValidation(e) {
 }
 const e = this;
 submitbtn.addEventListener('click', () => EmailValidation(e));
-
-const username = ReadElement('#name');
-const message = ReadElement('#msg');
 
 let myMessage;
 let userName;
