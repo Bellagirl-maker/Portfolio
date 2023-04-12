@@ -39,8 +39,8 @@ const cardDetails = [
     imageUrl: './images/snapshot1.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
-    liveLink: 'https://www.linkedin.com/in/isabella-otoo-935901146/',
-    sourceCode: 'https://github.com/Bellagirl-maker/',
+    liveLink: 'https://bellagirl-maker.github.io/First-capstone-project/',
+    sourceCode: 'https://github.com/Bellagirl-maker/First-capstone-project',
   }, {
     title: 'Multi-Post Stories',
     name: 'CANOPY',
