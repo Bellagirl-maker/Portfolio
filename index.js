@@ -32,9 +32,9 @@ RemoveMenu(closeNav);
 RemoveMenu(choose);
 const cardDetails = [
   {
-    title: 'Tonic',
-    name: 'CANOPY',
-    technology: 'Back End Dev',
+    title: 'Musical Concert Website',
+    name: 'Musical Concert',
+    technology: 'Front End Dev',
     year: '2025',
     imageUrl: './images/snapshot1.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
@@ -42,15 +42,15 @@ const cardDetails = [
     liveLink: 'https://bellagirl-maker.github.io/First-capstone-project/',
     sourceCode: 'https://github.com/Bellagirl-maker/First-capstone-project',
   }, {
-    title: 'Multi-Post Stories',
-    name: 'CANOPY',
+    title: 'Budget App',
+    name: 'Budget App',
     technology: 'Back End Dev',
     year: '2025',
-    imageUrl: './images/Snapshootdesktop4.png',
+    imageUrl: './images/budget app1.PNG',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. ry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
-    liveLink: 'https://www.linkedin.com/in/isabella-otoo-935901146/',
-    sourceCode: 'https://github.com/Bellagirl-maker/',
+    languages: ['ruby', 'rails', 'css', 'github'],
+    liveLink: 'https://budget-app-r1qd.onrender.com/',
+    sourceCode: 'https://github.com/Bellagirl-maker/budget_app',
   }, {
     title: 'Tonic',
     name: 'CANOPY',
