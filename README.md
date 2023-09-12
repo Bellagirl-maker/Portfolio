@@ -152,7 +152,7 @@ I would like to thank Microverse for the opportunity to create this project and 
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[How can this project be imporoved]**
+- **[How can this project be improved]**
 
   - [Dynamic pages could be added to this website using JavaScript]
 
