@@ -46,7 +46,7 @@ const cardDetails = [
     name: 'Budget App',
     technology: 'Back End Dev',
     year: '2025',
-    imageUrl: './images/budget app1.png',
+    imageUrl: './images/budgetapp1.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. ry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     languages: ['ruby', 'rails', 'css', 'github'],
     liveLink: 'https://budget-app-r1qd.onrender.com/',
