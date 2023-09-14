@@ -36,7 +36,7 @@ const cardDetails = [
     name: 'Musical Concert',
     technology: 'Front End Dev',
     year: '2023',
-    imageUrl: './images/Capstone1.PNG',
+    imageUrl: '../images/Capstone1.PNG',
     description: "Global Musical Concert is a website about a musical concert held across the globe. It announces an upcoming musical concert and Musicians who will be peforming at the concert ",
     languages: ['html', 'css', 'javascript', 'github'],
     liveLink: 'https://bellagirl-maker.github.io/First-capstone-project/',
