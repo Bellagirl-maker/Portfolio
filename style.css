@@ -771,7 +771,7 @@ textarea::placeholder {
 .card-modal-btn-grp {
   display: flex;
   gap: 12px;
-  width: 50px;
+  margin-right: 1rem;
 }
 
 .validator-red {
