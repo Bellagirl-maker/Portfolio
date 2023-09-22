@@ -24,6 +24,7 @@ body {
   width: 100%;
   align-items: center;
   padding: 1rem;
+  position: fixed;
 }
 
 .logo {
@@ -117,6 +118,28 @@ a:hover {
   align-items: center;
   color: #172b4d;
   width: 80%;
+  animation: typing 3.5s steps(40, end),
+  blink-caret 3s step-end infinite; 
+}
+
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #333;
+  }
 }
 
 .second-intro {
@@ -124,6 +147,11 @@ a:hover {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
+  transition: transform 0.5s ease-in-out;
+}
+
+.second-intro:hover {
+  transform: scale(1.1);
 }
 
 .social {
@@ -830,6 +858,11 @@ MEDIA QUERIES
     display: flex;
     margin: 0 auto;
     width: 80%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
   }
 
   .union {
