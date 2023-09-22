@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *,
 *::before,
 *::after,
@@ -5,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .social-icons > li {
@@ -24,7 +27,6 @@ body {
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -107,7 +109,6 @@ a:hover {
 }
 
 .first-intro {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -119,7 +120,6 @@ a:hover {
 }
 
 .second-intro {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -127,7 +127,6 @@ a:hover {
 }
 
 .social {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -180,7 +179,6 @@ ul.social-icons {
 }
 
 .project-title {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -190,7 +188,6 @@ ul.social-icons {
 }
 
 .frame2 {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -212,7 +209,6 @@ ul.social-icons {
 }
 
 .text {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -221,7 +217,6 @@ ul.social-icons {
 }
 
 .tag {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -238,7 +233,6 @@ button.skill {
   cursor: pointer;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif !important;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -268,7 +262,6 @@ button.skill:disabled {
 }
 
 .normal-button {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -314,7 +307,6 @@ button.skill:disabled {
 }
 
 .about-first-intro {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -326,7 +318,6 @@ button.skill:disabled {
 }
 
 .about-second-intro {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -335,7 +326,6 @@ button.skill:disabled {
 }
 
 .about-social {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -353,7 +343,6 @@ ul.about-social-icons {
 }
 
 .resumebtn {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -416,7 +405,21 @@ ul.lang-frame-skills {
   margin: 0 24px;
 }
 
+.dropdown-content {
+  margin: 0 24px;
+}
+
 .lang-list-skill > div {
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 0 12px 12px 12px;
+  padding: 9px 0 9px 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.dropdown-content > div {
   background: #f7f7f9;
   border-radius: 8px;
   margin: 0 12px 12px 12px;
@@ -429,10 +432,11 @@ ul.lang-frame-skills {
 .lang-list > img {
   align-self: center;
   margin-right: 40px;
+  cursor: pointer;
+
 }
 
 .lang-list > p {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -443,7 +447,6 @@ ul.lang-frame-skills {
 }
 
 .frame-skill > p {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -454,11 +457,20 @@ ul.lang-frame-skills {
 
 .frame-skill > img {
   margin-right: 42px;
+  cursor: pointer;
 }
 
 .lang-list-skill > div > p {
   margin-left: 16px;
-  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.dropdown-content > div > p {
+  margin-left: 16px;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -472,6 +484,31 @@ ul.lang-frame-skills {
   align-items: center;
   border-bottom: 1px solid #dfe1e6;
   margin: 0 24px 2rem;
+}
+
+.skills > ul {
+  list-style: none; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.skill-names {
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  padding: 8px;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
 }
 
 .contact-me {
@@ -492,7 +529,6 @@ form {
 }
 
 .contact-intro1 {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -505,7 +541,6 @@ form {
 }
 
 .contact-intro2 {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -520,7 +555,6 @@ form {
   background: #fff;
   width: 100%;
   margin: 24px 24px 0;
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -534,7 +568,6 @@ form {
   background: #fff;
   width: 100%;
   margin: 24px 24px 0;
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -557,7 +590,6 @@ textarea::placeholder {
   width: 100%;
   height: 170px;
   margin: 24px 24px;
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -567,7 +599,6 @@ textarea::placeholder {
 }
 
 #btn {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -638,7 +669,6 @@ textarea::placeholder {
 }
 
 .card-title {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -648,7 +678,6 @@ textarea::placeholder {
 }
 
 .card-desc {
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -729,7 +758,6 @@ textarea::placeholder {
   color: #3440b2;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif !important;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -754,7 +782,6 @@ textarea::placeholder {
   display: inline-flex;
   justify-content: center;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -836,7 +863,6 @@ MEDIA QUERIES
     color: #344563;
     font-weight: 500;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif !important;
   }
 
   .card-works {
@@ -928,7 +954,41 @@ MEDIA QUERIES
     text-align: left;
   }
 
+  .dropdown-content {
+    display: flex;
+    margin: 0;
+    width: 100%;
+  }
+
+  .dropdown-content > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0; 
+    padding: 0; 
+    text-align: left;
+  }
+
+  .dropdown-content > div {
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin: 0 12px 12px 12px;
+    padding: 9px 0 9px 12px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .skills > ul {
+    list-style: none;
+  }
+
   .lang-list-skill > div > p {
+    margin: 0;
+  }
+
+  .dropdown-content > div > p {
     margin: 0;
   }
 

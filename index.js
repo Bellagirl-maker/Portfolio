@@ -13,6 +13,8 @@ const viewModal2 = ReadElement('.view-card-2');
 const viewModal3 = ReadElement('.view-card-3');
 const viewModal4 = ReadElement('.view-card-4');
 const cardModal = ReadElement('.modal-section');
+const resumeButton = ReadElement('.resumebtn');
+const toggleArrows = Array.from(document.querySelectorAll('.toggle-arrow'));
 function Add() {
   nav.classList.add('nav-toggle');
   document.body.classList.add('stop-scrolling');
@@ -154,3 +156,51 @@ function EmailValidation(e) {
 }
 const e = this;
 submitbtn.addEventListener('click', () => EmailValidation(e));
+
+resumeButton.addEventListener('click', function() {
+  window.location.href = 'https://docs.google.com/document/d/1DlqT53liVnYZ-CKiOGUVNXCFN4ffxeb_1dK1KHIVDNg/edit?usp=sharing';
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleArrows = document.querySelectorAll(".lang");
+
+  toggleArrows.forEach(function (dropdown) {
+      const dropdownContent = dropdown.querySelector(".dropdown-content");
+
+      dropdown.addEventListener("click", function () {
+          if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+          } else {
+              dropdownContent.style.display = "block";
+          }
+      });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const rightToggle = document.querySelectorAll(".frame-skill");
+
+  rightToggle.forEach(function (dropdown) {
+      const droprightContent = dropdown.querySelector(".skills");
+
+      dropdown.addEventListener("click", function () {
+          if (droprightContent.style.display === "block") {
+              droprightContent.style.display = "none";
+          } else {
+              droprightContent.style.display = "block";
+          }
+      });
+  });
+});
+
+
+
+ 
+
+
+
+
+
+
+
+
