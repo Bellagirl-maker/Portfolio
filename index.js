@@ -99,8 +99,8 @@ function renderModal(number) {
                 </div>
                 <hr class="card-modal-hr">
                   <div class="card-modal-btn-grp">
-                  <a href=${card.liveLink} id="btn-link" <button type="button" class="view-more card-modal-btn">See live <img class="btn-icon" src="./images/live.png" alt="icon img"></button></a>
-                  <a href=${card.sourceCode} id="btn-link" <button type="button" class="view-more card-modal-btn">See Source <img class="btn-icon" src="./images/source.png" alt="icon img"></button></a>
+                  <a href=${card.liveLink} target="_blank" id="btn-link" <button type="button" class="view-more card-modal-btn">See live <img class="btn-icon" src="./images/live.png" alt="icon img"></button></a>
+                  <a href=${card.sourceCode} target="_blank" id="btn-link" <button type="button" class="view-more card-modal-btn">See Source <img class="btn-icon" src="./images/source.png" alt="icon img"></button></a>
                   </div>
                   </div> 
                   </div>

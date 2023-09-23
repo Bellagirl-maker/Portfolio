@@ -343,6 +343,7 @@ button.skill:disabled {
   align-items: center;
   color: #172b4d;
   margin: 114px 0 12px 24px;
+  
 }
 
 .about-second-intro {
@@ -351,6 +352,11 @@ button.skill:disabled {
   font-size: 16px;
   color: #344563;
   margin-left: 24px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.about-second-intro:hover {
+  transform: scale(1.1);
 }
 
 .about-social {
@@ -575,6 +581,11 @@ form {
   line-height: 28px;
   color: #fff;
   text-align: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.contact-intro2:hover {
+  transform: scale(1.1);
 }
 
 #name {
